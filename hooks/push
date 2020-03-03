@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "------ HOOK START - PUSH -------"
+
+docker tag $IMAGE_NAME $DOCKER_REPO:$COMMIT_MSG
+docker push $DOCKER_REPO:$COMMIT_MSG
+
+echo "------ HOOK END - PUSH -------"

@@ -1,0 +1,13 @@
+{
+  "name": "custom_behavior_extension",
+  "version": "1.0.0",
+  "description": "lambda function runing on Kubeless",
+  "author": "Technical User <technical.user@sap.com>",
+  "main": "lambda.js",
+  "scripts": {
+    "start": "node lambda.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
