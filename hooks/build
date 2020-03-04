@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "------ HOOK START - BUILD -------"
+printenv
 
 COMMIT_DIR="$(cut -d'-' -f3 <<<"$COMMIT_MSG")"
 docker build -t $IMAGE_NAME --build-arg COMMIT_DIR=$COMMIT_DIR .
