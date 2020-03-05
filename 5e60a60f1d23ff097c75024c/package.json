@@ -1,0 +1,13 @@
+{
+  "name": "entensibility_service_web_app",
+  "version": "1.0",
+  "description": "Run code before Cart Calculation",
+  "author": "SAP",
+  "main": "lambda.js",
+  "scripts": {
+    "start": "node lambda.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
