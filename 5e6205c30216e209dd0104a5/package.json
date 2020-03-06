@@ -1,0 +1,10 @@
+{
+  "name": "entensibility_service_web_app",
+  "version": "1.0.0",
+  "description": "5e6205c30216e209dd0104a5",
+  "author": "tenant030601-env1",
+  "main": "lambda.js",
+  "scripts": {
+    "start": "node lambda.js"
+  }
+}

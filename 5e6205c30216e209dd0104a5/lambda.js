@@ -1,0 +1,1 @@
+Simply enter your data then push the encode button
