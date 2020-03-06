@@ -1,0 +1,13 @@
+{
+  "name": "entensibility_service_web_app",
+  "version": "1.1.2",
+  "description": "5e622112e091b0f850ddbd5b",
+  "author": "tenantId1-environmentId1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
