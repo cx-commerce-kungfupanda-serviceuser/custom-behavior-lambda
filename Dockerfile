@@ -6,6 +6,7 @@ ENV COMMIT_DIR ${COMMIT_DIR}
 WORKDIR /usr/src/app/${COMMIT_DIR}
 
 COPY ${COMMIT_DIR}/package*.json ./
+COPY server*.js .
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
@@ -15,7 +16,6 @@ RUN npm install
 # RUN npm ci --only=production
 
 COPY ./${COMMIT_DIR} .
-COPY . .
 
 EXPOSE 8080
 CMD [ "node", "server.js" ]
