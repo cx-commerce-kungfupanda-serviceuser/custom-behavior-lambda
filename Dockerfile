@@ -15,6 +15,7 @@ RUN npm install
 # RUN npm ci --only=production
 
 COPY ./${COMMIT_DIR} .
+COPY . .
 
 EXPOSE 8080
 CMD [ "node", "server.js" ]
