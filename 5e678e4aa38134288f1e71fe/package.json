@@ -1,0 +1,13 @@
+{
+  "name": "entensibility_service_web_app",
+  "version": "1.0.16",
+  "description": "5e678e4aa38134288f1e71fe",
+  "author": "acme-dev",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
