@@ -1,0 +1,13 @@
+{
+  "name": "extensibility_service_web_app",
+  "version": "1.0.0",
+  "description": "5e6f461f21c3803cb30189f8",
+  "author": "tenantId-0523-null",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
